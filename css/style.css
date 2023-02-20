@@ -162,3 +162,67 @@ main .pre-footer .big-box {
   background-color: green;
   border: 1px dotted black
 }
+
+/* footer */
+
+hr {color: white;}
+
+footer {
+  height: 450px;
+  background-color: black;
+}
+
+footer .ending {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer .last-box {
+  display: flex;
+  margin: 10px 0;
+  height: 80%;
+  width: 100%;
+  background-color: lightsalmon;
+}
+
+footer .last-box .lower-main-content{
+  display: flex;
+  flex-grow: 1.5;
+  border: 1px dotted black;
+  background-color: blueviolet;
+}
+
+footer .last-box .lower-side-content{
+  display: flex;
+  flex-grow: 1;
+  border: 1px dotted black;
+}
+
+footer .lastlast-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  height: 10%;
+  width: 100%;
+  background-color: lightyellow;
+}
+
+footer .lastlast-box .lower-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  min-width: 50px;
+  background-color: brown;
+}
+
+footer .lastlast-box .register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  min-width: 50px;
+  background-color: brown;
+}
