@@ -12,7 +12,7 @@ body {
 
 .container {
   display: flex;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -71,4 +71,60 @@ header .login {
   width: 25%;
   height: 30px;
   border: 1px dotted black;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-color: blue;
+}
+
+.jumbo-text {
+  height: 350px;
+  width: 60%;
+  background-color: pink;
+}
+
+/* main + calltoaction */
+
+main .background {
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+
+main .white-bg {
+  background-color: white;
+}
+
+main .grey-bg {
+  background-color: grey;
+}
+
+main .content-box {
+  display: flex;
+  height: 300px;
+}
+
+main .grey-bg>.content-box {
+  flex-direction: row-reverse;
+}
+
+.content-box .blue-content {
+  display: flex;
+  width: 65%;
+  height: 100%;
+  background-color: blue;
+}
+
+
+.content-box .red-content {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  background-color: red;
 }
