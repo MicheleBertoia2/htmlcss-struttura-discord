@@ -128,3 +128,37 @@ main .grey-bg>.content-box {
   height: 100%;
   background-color: red;
 }
+
+main .pre-footer {
+  display: flex;
+  align-items: center;  
+  height: 600px;
+}
+
+main .pre-footer .big-box {
+  display: flex;
+  flex-direction: column; 
+  height: 90%;
+}
+
+.pre-footer .big-box .text-container {
+  display: flex;
+  height: 30%;
+  background-color: green;
+  border: 1px dotted black;
+}
+
+
+.pre-footer .big-box .img-container {
+  display: flex;
+  height: 40%;
+  background-color: green;
+  border: 1px dotted black
+}
+
+.pre-footer .big-box .calltoaction {
+  display: flex;
+  height: 30%;
+  background-color: green;
+  border: 1px dotted black
+}
