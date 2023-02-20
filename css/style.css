@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header + jumbotron */
+
+header {
+  display: flex;
+  background-color: aqua;
+  height: 30px;
+}
+
+header .upper-navbar {
+  display: flex;
+}
+
+header .upper-logo {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  height: 30px;
+  border: 1px dotted black;
+}
+
+header nav {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  width: 50%;
+  height: 30px;
+  border: 1px dotted black;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 10px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header .login {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 25%;
+  height: 30px;
+  border: 1px dotted black;
+}
